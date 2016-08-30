@@ -239,7 +239,7 @@ public class ANQPFactory {
                 case HSOperatingclass:
                     return new GenericBlobElement(infoID, payload);
                 case HSOSUProviders:
-                    return new RawByteElement(infoID, payload);
+                    return new HSOsuProvidersElement(infoID, payload);
                 case HSIconFile:
                     return new HSIconFileElement(infoID, payload);
                 default:
